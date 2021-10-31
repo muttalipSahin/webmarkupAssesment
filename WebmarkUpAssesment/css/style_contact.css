@@ -1,0 +1,56 @@
+body{
+    background-color: #E6E2C8;
+}
+#payoff{
+    font-family: 'Roboto', sans-serif;
+}
+#logoText{
+    font-family: 'Notable', sans-serif;
+}
+#video{
+    margin-bottom: 200px;
+    height: 300px;
+}
+#logo{
+    width: 5em;
+    height: 5em;
+}
+#navBarOl{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #050A30;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Notable', sans-serif;
+}
+li a:hover {
+    background-color: #7EC8E3;
+}
+
+
+#cookiestatement{
+    float: right;
+    opacity: 50%;
+    background-color: #FA0;
+    color: #FFF;
+    max-width: 100px;
+    max-height: 100px;
+    
+}
+footer{
+    background-color: rgb(225, 225, 225);
+    color: black;
+    clear: both;
+    text-align: left;
+
+}

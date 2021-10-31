@@ -1,0 +1,146 @@
+
+body{
+    background-color: #E6E2C8;
+}
+#payoff{
+    font-family: 'Roboto', sans-serif;
+}
+#logoText{
+    font-family: 'Notable', sans-serif;
+}
+#video{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    height: 300px;
+    
+}
+#logo{
+    width: 5em;
+    height: 5em;
+}
+#navBarOl{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #050A30;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Notable', sans-serif;
+}
+li a:hover {
+    background-color: #7EC8E3;
+}
+
+.articleHeader{
+    width: 600px;
+    
+}
+.articleP{
+    width: 600px;
+  
+}
+#Pic1{
+    max-height: 180px;
+    width: 600px;
+    
+}
+#Pic2{
+    max-height: 180px;
+    width: 600px;
+    
+    
+ 
+}
+#Pic3{
+    max-height: 180px;
+    width:  600px;
+    
+}
+#bestDestinationsList{
+    float: right;
+    max-width: 33%;
+    font-family: 'Notable', sans-serif;
+    font-size: 15px;
+    margin-top: 300px;
+}
+#cookiestatement{
+    float: right;
+    opacity: 50%;
+    background-color: #FA0;
+    color: #FFF;
+    max-width: 100px;
+    max-height: 100px;
+    
+}
+footer{
+    background-color: rgb(225, 225, 225);
+    color: black;
+    clear: both;
+    text-align: left;
+
+}
+
+@media screen and (min-width: 481px) and ( max-width: 1180px) {
+        #bestDestinationsList{
+            float:left;
+            max-width: 600px;
+            margin-left: 5px;
+            margin-bottom: 100px;
+        }
+        #video{
+            margin-bottom: 100px;
+        }
+  
+  
+    #Pic1{
+        max-height: 180px;
+        width: 300px;
+        
+    }
+    #Pic2{
+        max-height: 180px;
+        width: 300px;
+        
+        
+     
+    }
+    #Pic3{
+        max-height: 180px;
+        width:  300px;
+        
+    }
+    .articleHeader{
+        width: 600px;
+        font-size: 20px;
+    }
+    .articleP{
+        width: 600px;
+        font-size: 20px;
+    }
+   
+        
+      }
+      @media screen  and (max-width: 480px){
+          body{
+              background-color: red;
+          }
+          
+      }
+    
+
+
+
+
+
+
+
+  
